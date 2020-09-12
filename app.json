@@ -27,6 +27,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.laymui.rnfirstapp"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }

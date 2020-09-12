@@ -31,7 +31,7 @@ export default function App() {
   }
   return (
     <View style={styles.screen}>
-      <Button accessibilityLabel="btnAddNewGoal" title="Add New Goal" onPress={() => setIsAddMode(true)}/>
+      <Button {...testProperties('btnAddNewGoal')} title="Add New Goal" onPress={() => setIsAddMode(true)}/>
       <GoalInput 
         visible={isAddMode} 
         onAddGoal={addGoalHandler}
