@@ -3,6 +3,7 @@ import React , { useState} from 'react';
 import { StyleSheet, Text, View, TextInput, Button , ScrollView , FlatList } from 'react-native';
 import GoalItem from './components/GoalItem';
 import GoalInput from './components/GoalInput';
+import { testProperties } from './Utils/testHelper';
 
 
 export default function App() {
