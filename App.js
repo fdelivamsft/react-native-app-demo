@@ -43,7 +43,10 @@ export default function App() {
       keyExtractor={(item, index) => item.id }
         data={courseGoals}
         // renderItem={itemData => <GoalItem id={itemData.item.id} onDelete={removeGoalHandler} title={itemData.item.value}/>}
-        renderItem={itemData => <GoalItem onDelete={removeGoalHandler.bind(this, itemData.item.id)} title={itemData.item.value}/>}
+        renderItem={itemData => <GoalItem 
+            onDelete={removeGoalHandler.bind(this, itemData.item.id)} 
+            title={itemData.item.value} 
+            accessibilityID={itemData.item.value}/>}
   
       />
     </View>
