@@ -8,15 +8,16 @@
  * @return {object}
  */
 
- /*
+ /* Method 1 */
 export function testProperties(id, disableAccessible = false) {
     const disableAccessibility = disableAccessible ? { accessible: false } : {};
   
     return { ...disableAccessibility, accessibilityLabel: id };
   }
-  
-*/
 
+/* Method 2 */
+/*
   export function testProperties(id) {
     return {testID: id, accessibilityLabel: id};
   }
+  */

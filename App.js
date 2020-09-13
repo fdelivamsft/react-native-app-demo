@@ -12,6 +12,7 @@ export default function App() {
   const [isAddMode, setIsAddMode] = useState(false); //setIsAddMode is the function to change the state: isAddMode
   
   const addGoalHandler = goalTitle => {
+    
     if (goalTitle != '') {
     // Rendering done once for both states below 
     setCourseGoals(currentGoals => [...currentGoals, 
@@ -30,6 +31,7 @@ export default function App() {
   const cancelGoalAdditionHandler = () => {
     setIsAddMode(false);
   }
+  console.log('Playing with react native debugger')
   return (
     <View style={styles.screen}>
       <Button {...testProperties('btnAddNewGoal')} title="Add New Goal" onPress={() => setIsAddMode(true)}/>
