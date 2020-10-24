@@ -19,3 +19,7 @@ Learn Swift/Objective C for iOS
 
 Download Expo Client from AppStore
 and Run the app on the iOS phone
+
+Using locator strategy:
+https://appiumpro.com/editions/76-testing-react-native-apps-with-appium
+

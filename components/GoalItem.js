@@ -1,5 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet , TouchableOpacity, TouchableHighlight, TouchableNativeFeedback} from 'react-native';
+import { testProperties } from '../Utils/testHelper';
 
 const GoalItem = props => {
     return  (
@@ -9,7 +10,7 @@ const GoalItem = props => {
     <TouchableNativeFeedback underlayColor='#FF0000' onPress={props.onDelete}>
 
         <View style={styles.listItem}>
-        <Text>{props.title}</Text>
+        <Text {...testProperties(`${props.accessibilityID}`)}>{props.title}</Text>
         </View>
      {/* </TouchableHighlight>  */}
     </TouchableNativeFeedback>
