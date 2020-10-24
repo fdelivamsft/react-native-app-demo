@@ -4,8 +4,7 @@ resources:
     type: github
     endpoint: LayMui
     name: LayMui/demo-serenity-appium
-    branch: applitools
- 
+    
 trigger:
 - master
 
@@ -59,7 +58,7 @@ stages:
             - script: |
                 rm -r $(Build.ArtifactStagingDirectory)
 
-            - checkout: demo-serenity-appium
+            - checkout: demo-serenity-appium@applitools
             - script: |
                   ./serenity.sh iOS_realdevice 
                   workingDirectory: $(Build.SourcesDirectory)/demo-serenity-appium
