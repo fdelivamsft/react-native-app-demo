@@ -23,3 +23,11 @@ and Run the app on the iOS phone
 Using locator strategy:
 https://appiumpro.com/editions/76-testing-react-native-apps-with-appium
 
+# Build ipa artefact
+https://medium.com/easyread/build-react-native-ipa-apk-using-cli-simple-ci-cd-2b8303d079e0
+
+gem install xcpretty
+
+xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
+     
+xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
