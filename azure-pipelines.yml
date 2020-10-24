@@ -15,7 +15,7 @@ stages:
       jobs:
         -   job: Build_Test
             pool:
-              vmImage: 'macos-latest'
+              vmImage: 'macOS-latest'
 
             steps:
             - checkout: self
@@ -43,13 +43,26 @@ stages:
                 xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
                 xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
               workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
-              displayName: 'pod install'
+              displayName: 'pod install and xcodebuild to build ipa artefact'
+
+
+            - task: CopyFiles@2
+              inputs:
+                sourceFolder: $(Build.SourcesDirectory)/react-native-app-demo
+                contents: |
+                  **
+                TargetFolder: $(Build.ArtifactStagingDirectory)
+            - task: PublishPipelineArtifact@1
+              inputs:
+                targetPath: $(Build.ArtifactStagingDirectory)
+                artifactName: app-source-folder
+            - script: |
+                rm -r $(Build.ArtifactStagingDirectory)
 
             - checkout: demo-serenity-appium
             - script: |
-                  npm install
-                  npm test
-                  workingDirectory: $(Build.SourcesDirectory)/react-app-test-automation
-                  displayName: 'npm install and my end to end automation test in chrome in qa'
+                  ./serenity.sh iOS_realdevice 
+                  workingDirectory: $(Build.SourcesDirectory)/demo-serenity-appium
+                  displayName: 'run serenity appium test'
 
  
