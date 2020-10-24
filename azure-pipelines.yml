@@ -35,17 +35,15 @@ stages:
 
             - script: |
                 npm install
-                cd ios
-                pod install
               workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
-              displayName: 'npm install and pod install'
+              displayName: 'npm install'
             
             - script: |
-                cd ios
+                pod install
                 xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
                 xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
-                workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
-                displayName: 'build ipa artefact'
+              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
+              displayName: 'pod install'
 
             - checkout: demo-serenity-appium
             - script: |
