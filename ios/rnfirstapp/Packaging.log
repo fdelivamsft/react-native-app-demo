@@ -1,0 +1,576 @@
+2020-10-24 08:54:28 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb07e9d3de0; archive(resolved)='<IDEArchive: 0x7fb07edae5e0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb07e9d3de0; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fb07e9b8440; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionContext: 0x7fb07e9b82b0; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionContext: 0x7fb07eed0910; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionContext: 0x7fb07eeced40; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionContext: 0x7fb07eecd200; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionContext: 0x7fb07eecab30; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionContext: 0x7fb07eec9670; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionContext: 0x7fb079c07a10; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='<IDEProvisioningBasicTeam: 0x7fb07eeb7460; teamID='UY688SHM4H', teamName='Singtel Idea Factory Pte Ltd'>'>
+	<IDEDistributionContext: 0x7fb07ee4c7d0; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb07e974c40; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb07edbc970; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fb07ea29ee0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb07edaeb60; archive = '<IDEArchive: 0x7fb07edae5e0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fb07e9d3de0>
+2020-10-24 08:54:28 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2020-10-24 08:54:28 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2020-10-24 08:54:28 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app'
+2020-10-24 08:54:28 +0000  >>> Copying /Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app 
+2020-10-24 08:54:28 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-10-24 08:54:28 +0000  7093 bytes for ./_CodeSignature/CodeResources
+2020-10-24 08:54:28 +0000  copying file ./SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib ... 
+2020-10-24 08:54:28 +0000  2216 bytes for ./SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib
+2020-10-24 08:54:28 +0000  copying file ./SplashScreen.storyboardc/SplashScreenViewController.nib ... 
+2020-10-24 08:54:28 +0000  976 bytes for ./SplashScreen.storyboardc/SplashScreenViewController.nib
+2020-10-24 08:54:28 +0000  copying file ./SplashScreen.storyboardc/Info.plist ... 
+2020-10-24 08:54:28 +0000  225 bytes for ./SplashScreen.storyboardc/Info.plist
+2020-10-24 08:54:28 +0000  copying file ./Base.lproj/LaunchScreen.nib ... 
+2020-10-24 08:54:28 +0000  3165 bytes for ./Base.lproj/LaunchScreen.nib
+2020-10-24 08:54:28 +0000  copying file ./rn-first-app ... 
+2020-10-24 08:54:28 +0000  24122880 bytes for ./rn-first-app
+copying file ./Assets.car ... 
+2020-10-24 08:54:28 +0000  54847 bytes for ./Assets.car
+copying file ./main.jsbundle ... 
+902967 bytes for ./main.jsbundle
+copying file ./app.manifest ... 
+2020-10-24 08:54:28 +0000  84 bytes for ./app.manifest
+2020-10-24 08:54:28 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2020-10-24 08:54:28 +0000  466560 bytes for ./Frameworks/libswiftCoreImage.dylib
+2020-10-24 08:54:28 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2020-10-24 08:54:28 +0000  679680 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2020-10-24 08:54:28 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2020-10-24 08:54:28 +0000  95497584 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2020-10-24 08:54:28 +0000  2041040 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+2020-10-24 08:54:28 +0000  1608800 bytes for ./Frameworks/libswiftUIKit.dylib
+2020-10-24 08:54:28 +0000  copying file ./Frameworks/libswiftMetal.dylib ... 
+2020-10-24 08:54:28 +0000  724416 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2020-10-24 08:54:28 +0000  4056896 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2020-10-24 08:54:28 +0000  857184 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+2020-10-24 08:54:28 +0000  450384 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2020-10-24 08:54:28 +0000  1091440 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2020-10-24 08:54:28 +0000  486336 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2020-10-24 08:54:28 +0000  copying file ./Frameworks/libswiftFoundation.dylib ... 
+2020-10-24 08:54:28 +0000  43094320 bytes for ./Frameworks/libswiftFoundation.dylib
+2020-10-24 08:54:28 +0000 [MT] /usr/bin/ditto exited with 0
+2020-10-24 08:54:28 +0000  copying file ./embedded.mobileprovision ... 
+35676 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1399 bytes for ./Info.plist
+copying file ./Expo.plist ... 
+260 bytes for ./Expo.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2020-10-24 08:54:28 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee733e0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fb07ee54390:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee79d50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eaedaf0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fb07ee54390:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee76280; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fb07e99a730:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee86c90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eaee500>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fb07e99a730:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee7b3a0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fb07e994fc0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee6f750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eaedaf0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fb07e994fc0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee58e90; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fb07ee60bf0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee5c570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07ead4690>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fb07ee60bf0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee6d820; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fb07e99b810:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee717e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07ead70f0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fb07e99b810:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee92ee0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fb07e9986c0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee7af30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07ead7470>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fb07e9986c0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee799b0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fb07e998520:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee78aa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07ead4910>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fb07e998520:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee75780; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fb07e9974f0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07edc2450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eaf1770>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fb07e9974f0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee80b20; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fb07ee66420:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee79680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef219f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07ea6ad80>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fb07ee66420:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee73b30; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fb07e99c890:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee78ef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eed8d30; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07ee4c360>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fb07e99c890:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee86110; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fb07e995ff0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee83620; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eed8d30; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07ec67cd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fb07e995ff0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7fb07ee72510; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fb07e999690:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee8dce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eed8d30; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eede130>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fb07e999690:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:28 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2020-10-24 08:54:28 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-10-24 08:54:28 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/rn-first-app' '-r' '-o' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/rn-first-app'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2020-10-24 08:54:29 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2020-10-24 08:54:29 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2020-10-24 08:54:29 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftCore.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftCoreFoundation.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftCoreGraphics.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftCoreImage.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftDarwin.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftDispatch.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftFoundation.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftMetal.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftObjectiveC.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftQuartzCore.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftUIKit.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib' '-remove' 'arm64e' '-output' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 0
+2020-10-24 08:54:29 +0000 [MT] Successfully thinned item "libswiftos.dylib", arch "arm64e"
+2020-10-24 08:54:29 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/rn-first-app' '-verify_arch' 'arm64e'
+2020-10-24 08:54:29 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-10-24 08:54:29 +0000 [MT] Skipping architecture thinning for item "rn-first-app" because arch "arm64e" wasn't found
+2020-10-24 08:54:29 +0000 [MT] Processing step: IDEDistributionODRStep
+2020-10-24 08:54:29 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee733e0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fb07ee54390:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee79d50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9ed7a0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9ed8d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fb07ee54390:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee76280; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fb07e99a730:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee86c90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9edab0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9bd420>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fb07e99a730:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee7b3a0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fb07e994fc0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee6f750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eee5580; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eefbe50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fb07e994fc0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee58e90; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fb07ee60bf0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee5c570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eee5530; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eee4fd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fb07ee60bf0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee6d820; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fb07e99b810:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee717e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eeecd90; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eeed020>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fb07e99b810:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee92ee0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fb07e9986c0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee7af30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9edf20; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9edd70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fb07e9986c0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee799b0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fb07e998520:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee78aa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9f2600; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9f2520>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fb07e998520:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee75780; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fb07e9974f0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07edc2450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eeed080; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eedf9b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fb07e9974f0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee80b20; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fb07ee66420:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee79680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9f28e0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9f2800>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fb07ee66420:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee73b30; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fb07e99c890:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee78ef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9f0c20; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9f0d50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fb07e99c890:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee86110; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fb07e995ff0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee83620; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9dedc0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9df050>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fb07e995ff0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb07ee72510; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fb07e999690:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee8dce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9ddc80; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9ddfc0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fb07e999690:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>
+2020-10-24 08:54:29 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app'
+2020-10-24 08:54:29 +0000 [MT] /usr/bin/xattr exited with 0
+2020-10-24 08:54:29 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2020-10-24 08:54:29 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee733e0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fb07ee54390:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee79d50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eeff7f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eeff910>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fb07ee54390:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:29 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee733e0; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fb07ee54390:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee79d50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9ee270; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9ee500>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fb07ee54390:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~HgYuWI
+2020-10-24 08:54:29 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~HgYuWI' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib'
+2020-10-24 08:54:29 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2020-10-24 08:54:29 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:29 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee76280; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fb07e99a730:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee86c90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9e1880; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9e17e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fb07e99a730:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:29 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee76280; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fb07e99a730:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee86c90; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9dbb80; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9dbe50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fb07e99a730:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~ub1pK2
+2020-10-24 08:54:29 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~ub1pK2' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee7b3a0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fb07e994fc0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee6f750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eee2bf0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eee2e10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fb07e994fc0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee7b3a0; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fb07e994fc0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee6f750; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eed8430; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eed48c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fb07e994fc0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~4hg5mw
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~4hg5mw' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee58e90; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fb07ee60bf0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee5c570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eeec880; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eed8020>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fb07ee60bf0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee58e90; bundleID='com.apple.dt.runtime.swiftCoreImage', path='<DVTFilePath:0x7fb07ee60bf0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee5c570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eedc590; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eed8700>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftCoreImage', executablePath='<DVTFilePath:0x7fb07ee60bf0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~oeXBNh
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~oeXBNh' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee6d820; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fb07e99b810:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee717e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef11d00; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eaef280>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fb07e99b810:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee6d820; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fb07e99b810:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee717e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eee79c0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eed68d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fb07e99b810:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~5nvHaV
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~5nvHaV' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee92ee0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fb07e9986c0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee7af30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9e2840; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9e24e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fb07e9986c0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee92ee0; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fb07e9986c0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee7af30; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eeffcf0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eefffe0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fb07e9986c0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~qGcJvz
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~qGcJvz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee799b0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fb07e998520:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee78aa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eed7fe0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eee81d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fb07e998520:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee799b0; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fb07e998520:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee78aa0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eee6300; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eee2a10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fb07e998520:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~tGXcCl
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~tGXcCl' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee75780; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fb07e9974f0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07edc2450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eee6230; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eed80e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fb07e9974f0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee75780; bundleID='com.apple.dt.runtime.swiftMetal', path='<DVTFilePath:0x7fb07e9974f0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftMetal.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07edc2450; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eeec8f0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eeec9e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftMetal', executablePath='<DVTFilePath:0x7fb07e9974f0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftMetal.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~R0siVL
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~R0siVL' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee80b20; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fb07ee66420:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee79680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9de380; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9de010>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fb07ee66420:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee80b20; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fb07ee66420:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee79680; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eee0ce0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eeff990>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fb07ee66420:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~7Qarai
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~7Qarai' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee73b30; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fb07e99c890:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee78ef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eedb2e0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eee6380>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fb07e99c890:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee73b30; bundleID='com.apple.dt.runtime.swiftQuartzCore', path='<DVTFilePath:0x7fb07e99c890:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee78ef0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9e2610; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9bfb70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftQuartzCore', executablePath='<DVTFilePath:0x7fb07e99c890:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~v89BxN
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~v89BxN' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'
+2020-10-24 08:54:30 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2020-10-24 08:54:30 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:30 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee86110; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fb07e995ff0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee83620; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07edcd2b0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07edcd660>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fb07e995ff0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:30 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee86110; bundleID='com.apple.dt.runtime.swiftUIKit', path='<DVTFilePath:0x7fb07e995ff0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee83620; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07edd36e0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07edd2e00>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftUIKit', executablePath='<DVTFilePath:0x7fb07e995ff0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~JEPLlD
+2020-10-24 08:54:30 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~JEPLlD' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib'
+2020-10-24 08:54:31 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2020-10-24 08:54:31 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:31 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07ee72510; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fb07e999690:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee8dce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07ef1fa00; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eaf83d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fb07e999690:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'>: {
+}
+2020-10-24 08:54:31 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07ee72510; bundleID='com.apple.dt.runtime.swiftos', path='<DVTFilePath:0x7fb07e999690:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftos.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee8dce0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eee5040; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eee0520>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='(null)', teamID='UY688SHM4H', identifier='com.apple.dt.runtime.swiftos', executablePath='<DVTFilePath:0x7fb07e999690:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/Frameworks/libswiftos.dylib'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~joSqad
+2020-10-24 08:54:31 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~joSqad' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib'
+2020-10-24 08:54:31 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2020-10-24 08:54:31 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:31 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7fb07eeac650; bundleID='com.laymui.rn-first-app', path='<DVTFilePath:0x7fb07edadea0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee7f180; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07e9f1080; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07e9f1180>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='{
+    "application-identifier" = "UY688SHM4H.com.laymui.rn-first-app";
+    "com.apple.developer.team-identifier" = UY688SHM4H;
+    "get-task-allow" = 1;
+}', teamID='UY688SHM4H', identifier='com.laymui.rn-first-app', executablePath='<DVTFilePath:0x7fb07e993820:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/rn-first-app'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "UY688SHM4H.com.laymui.rn-first-app";
+    "com.apple.developer.team-identifier" = UY688SHM4H;
+    "get-task-allow" = 1;
+}
+2020-10-24 08:54:31 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7fb07eeac650; bundleID='com.laymui.rn-first-app', path='<DVTFilePath:0x7fb07edadea0:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fb07ee7f180; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fb07eeff9c0; name='Apple Development: Lay Mui Toh (XV3Y6Z4B9D)', hash='44B48B7624625B2B650811692E7F2AF2C508CAB6', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fb07eee19e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-09-21 02:28:46 +0000''>', entitlements='{
+    "application-identifier" = "UY688SHM4H.com.laymui.rn-first-app";
+    "com.apple.developer.team-identifier" = UY688SHM4H;
+    "get-task-allow" = 1;
+}', teamID='UY688SHM4H', identifier='com.laymui.rn-first-app', executablePath='<DVTFilePath:0x7fb07e993820:'/Users/laymui/dev/taiger/react-native-app-demo/ios/rnfirstapp.xcarchive/Products/Applications/rn-first-app.app/rn-first-app'>', hardenedRuntime='0'>'> to: /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~BO2SKG
+2020-10-24 08:54:31 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '44B48B7624625B2B650811692E7F2AF2C508CAB6' '--entitlements' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/entitlements~~~BO2SKG' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app'
+2020-10-24 08:54:31 +0000  /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app: signed app bundle with Mach-O thin (arm64) [com.laymui.rn-first-app]
+2020-10-24 08:54:31 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-24 08:54:31 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-24 08:54:31 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2020-10-24 08:54:31 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root' '/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Packages/rn-first-app.ipa'
+2020-10-24 08:54:31 +0000  >>> Copying /var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root 
+2020-10-24 08:54:31 +0000  copying file ./Payload/rn-first-app.app/_CodeSignature/CodeResources ... 
+2020-10-24 08:54:31 +0000  7093 bytes for ./Payload/rn-first-app.app/_CodeSignature/CodeResources
+2020-10-24 08:54:31 +0000  copying file ./Payload/rn-first-app.app/SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib ... 
+2216 bytes for ./Payload/rn-first-app.app/SplashScreen.storyboardc/EXPO-VIEWCONTROLLER-1-view-EXPO-ContainerView.nib
+2020-10-24 08:54:31 +0000  copying file ./Payload/rn-first-app.app/SplashScreen.storyboardc/SplashScreenViewController.nib ... 
+976 bytes for ./Payload/rn-first-app.app/SplashScreen.storyboardc/SplashScreenViewController.nib
+copying file ./Payload/rn-first-app.app/SplashScreen.storyboardc/Info.plist ... 
+2020-10-24 08:54:31 +0000  225 bytes for ./Payload/rn-first-app.app/SplashScreen.storyboardc/Info.plist
+copying file ./Payload/rn-first-app.app/Base.lproj/LaunchScreen.nib ... 
+2020-10-24 08:54:31 +0000  3165 bytes for ./Payload/rn-first-app.app/Base.lproj/LaunchScreen.nib
+2020-10-24 08:54:31 +0000  copying file ./Payload/rn-first-app.app/rn-first-app ... 
+2020-10-24 08:54:31 +0000  3086592 bytes for ./Payload/rn-first-app.app/rn-first-app
+copying file ./Payload/rn-first-app.app/Assets.car ... 
+2020-10-24 08:54:31 +0000  54847 bytes for ./Payload/rn-first-app.app/Assets.car
+copying file ./Payload/rn-first-app.app/main.jsbundle ... 
+2020-10-24 08:54:31 +0000  902967 bytes for ./Payload/rn-first-app.app/main.jsbundle
+copying file ./Payload/rn-first-app.app/app.manifest ... 
+2020-10-24 08:54:31 +0000  84 bytes for ./Payload/rn-first-app.app/app.manifest
+copying file ./Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib ... 
+2020-10-24 08:54:31 +0000  253632 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib ... 
+2020-10-24 08:54:31 +0000  302640 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/rn-first-app.app/Frameworks/libswiftCore.dylib ... 
+2020-10-24 08:54:31 +0000  16915040 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2020-10-24 08:54:31 +0000  646848 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib
+2020-10-24 08:54:31 +0000  copying file ./Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib ... 
+2020-10-24 08:54:32 +0000  477152 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib ... 
+2020-10-24 08:54:32 +0000  298096 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib ... 
+2020-10-24 08:54:32 +0000  1018912 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib
+2020-10-24 08:54:32 +0000  copying file ./Payload/rn-first-app.app/Frameworks/libswiftos.dylib ... 
+2020-10-24 08:54:32 +0000  299424 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftos.dylib
+copying file ./Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2020-10-24 08:54:32 +0000  253776 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib ... 
+2020-10-24 08:54:32 +0000  369728 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib
+2020-10-24 08:54:32 +0000  copying file ./Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib ... 
+2020-10-24 08:54:32 +0000  256864 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib
+2020-10-24 08:54:32 +0000  copying file ./Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib ... 
+2020-10-24 08:54:32 +0000  8479536 bytes for ./Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib
+copying file ./Payload/rn-first-app.app/embedded.mobileprovision ... 
+2020-10-24 08:54:32 +0000  35676 bytes for ./Payload/rn-first-app.app/embedded.mobileprovision
+copying file ./Payload/rn-first-app.app/Info.plist ... 
+2020-10-24 08:54:32 +0000  1399 bytes for ./Payload/rn-first-app.app/Info.plist
+copying file ./Payload/rn-first-app.app/Expo.plist ... 
+2020-10-24 08:54:32 +0000  260 bytes for ./Payload/rn-first-app.app/Expo.plist
+copying file ./Payload/rn-first-app.app/PkgInfo ... 
+8 bytes for ./Payload/rn-first-app.app/PkgInfo
+2020-10-24 08:54:32 +0000 [MT] /usr/bin/ditto exited with 0
+2020-10-24 08:54:32 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2020-10-24 08:54:32 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-10-24 08:54:32 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9dc750:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9dc750:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreFoundation.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07eef5210:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07eef5210:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreImage.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9db750:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9db750:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftos.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9df400:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9df400:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCoreGraphics.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9f1600:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9f1600:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftFoundation.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9e3510:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9e3510:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDarwin.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9de990:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9de990:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftUIKit.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9e0b70:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9e0b70:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftMetal.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07eef4d60:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07eef4d60:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftObjectiveC.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9f16d0:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9f16d0:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftDispatch.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07e9e44f0:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07e9e44f0:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftQuartzCore.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07eef02b0:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib'>
+2020-10-24 08:54:32 +0000 [MT] [OPTIONAL] Can't have a profile, not a bundle at <DVTFilePath:0x7fb07eef02b0:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app/Frameworks/libswiftCore.dylib'>
+2020-10-24 08:54:32 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7fb07ededc40:'/var/folders/qc/qm46gtzd5_bff360tmvm6pq00000gn/T/XcodeDistPipeline.~~~8MiZSH/Root/Payload/rn-first-app.app'>
+2020-10-24 08:54:32 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
