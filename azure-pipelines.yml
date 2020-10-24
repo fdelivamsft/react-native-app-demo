@@ -1,0 +1,57 @@
+resources:
+  repositories:
+  - repository: demo-serenity-appium
+    type: github
+    endpoint: LayMui
+    name: LayMui/demo-serenity-appium
+    branch: applitools
+ 
+trigger:
+- master
+
+stages:
+  -   stage: Build_Test
+      displayName: Build and Test artifacts
+      jobs:
+        -   job: Build_Test
+            pool:
+              vmImage: 'macos-latest'
+
+            steps:
+            - checkout: self
+            - task: NodeTool@0
+              inputs:
+                versionSpec: '10.x'
+              displayName: 'Install Node.js'
+              
+            - task: UseRubyVersion@0
+              inputs:
+                versionSpec: '>= 2.4'
+                
+            - script: |
+                gem install xcpretty
+              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
+              displayName: 'gem install xcpretty'
+
+            - script: |
+                npm install
+                cd ios
+                pod install
+              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
+              displayName: 'npm install and pod install'
+            
+            - script: |
+                cd ios
+                xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
+                xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
+                workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
+                displayName: 'build ipa artefact'
+
+            - checkout: demo-serenity-appium
+            - script: |
+                  npm install
+                  npm test
+                  workingDirectory: $(Build.SourcesDirectory)/react-app-test-automation
+                  displayName: 'npm install and my end to end automation test in chrome in qa'
+
+ 
