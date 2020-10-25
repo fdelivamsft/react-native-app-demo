@@ -30,7 +30,6 @@ stages:
                 
             - script: |
                 gem install xcpretty
-              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
               displayName: 'gem install xcpretty'
 
             - script: |
