@@ -19,44 +19,53 @@ stages:
 
             steps:
             - checkout: self
-            - task: UseRubyVersion@0
+           
+            - task: Xcode@5
               inputs:
-                versionSpec: '>= 2.4'
+                sdk: '$(sdk)'
+                scheme: '$(scheme)'
+                configuration: '$(configuration)'
+                xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
+                exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
+                packageApp: false
+            # - task: UseRubyVersion@0
+            #   inputs:
+            #     versionSpec: '>= 2.4'
                 
-            - script: |
-                gem install xcpretty
-              displayName: 'gem install xcpretty'
+            # - script: |
+            #     gem install xcpretty
+            #   displayName: 'gem install xcpretty'
 
-            - task: NodeTool@0
-              inputs:
-                versionSpec: '10.x'
-              displayName: 'Install Node.js'
+            # - task: NodeTool@0
+            #   inputs:
+            #     versionSpec: '10.x'
+            #   displayName: 'Install Node.js'
             
-            - script: |
-                npm install
-              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
-              displayName: 'npm install'
+            # - script: |
+            #     npm install
+            #   workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
+            #   displayName: 'npm install'
             
-            - script: |
-                pod install
-                xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
-                xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
-              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
-              displayName: 'pod install and xcodebuild to build ipa artefact'
+            # - script: |
+            #     pod install
+            #     xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
+            #     xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
+            #   workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
+            #   displayName: 'pod install and xcodebuild to build ipa artefact'
 
 
-            - task: CopyFiles@2
-              inputs:
-                sourceFolder: $(Build.SourcesDirectory)/react-native-app-demo
-                contents: |
-                  **
-                TargetFolder: $(Build.ArtifactStagingDirectory)
-            - task: PublishPipelineArtifact@1
-              inputs:
-                targetPath: $(Build.ArtifactStagingDirectory)
-                artifactName: app-source-folder
-            - script: |
-                rm -r $(Build.ArtifactStagingDirectory)
+            # - task: CopyFiles@2
+            #   inputs:
+            #     sourceFolder: $(Build.SourcesDirectory)/react-native-app-demo
+            #     contents: |
+            #       **
+            #     TargetFolder: $(Build.ArtifactStagingDirectory)
+            # - task: PublishPipelineArtifact@1
+            #   inputs:
+            #     targetPath: $(Build.ArtifactStagingDirectory)
+            #     artifactName: app-source-folder
+            # - script: |
+            #     rm -r $(Build.ArtifactStagingDirectory)
 
             # - checkout: demo-serenity-appium
             # - script: |
