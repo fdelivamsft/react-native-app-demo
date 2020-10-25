@@ -19,11 +19,6 @@ stages:
 
             steps:
             - checkout: self
-            - task: NodeTool@0
-              inputs:
-                versionSpec: '10.x'
-              displayName: 'Install Node.js'
-              
             - task: UseRubyVersion@0
               inputs:
                 versionSpec: '>= 2.4'
@@ -32,6 +27,11 @@ stages:
                 gem install xcpretty
               displayName: 'gem install xcpretty'
 
+            - task: NodeTool@0
+              inputs:
+                versionSpec: '10.x'
+              displayName: 'Install Node.js'
+            
             - script: |
                 npm install
               workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
