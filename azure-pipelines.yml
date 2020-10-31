@@ -20,14 +20,24 @@ stages:
             steps:
             - checkout: self
            
+            - task: CocoaPods@0
+              inputs:
+                forceRepoUpdate: true
             - task: Xcode@5
               inputs:
-                sdk: '$(sdk)'
-                scheme: '$(scheme)'
-                configuration: '$(configuration)'
-                xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
-                exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
-                packageApp: false
+                actions: 'build'
+                sdk: 'iphonesimulator'
+                configuration: 'Debug'
+                xcWorkspacePath: 'rnfirstapp.xcworkspace'
+                scheme: 'rnfirstapp'
+                xcodeVersion: '12'
+                args: '-derivedDataPath $(agent.buildDirectory)/build'
+
+            - task: ArchiveFiles@2
+              inputs:
+                rootFolderOrFile: '$(agent.buildDirectory)/build/Build/Products/Debug-iphonesimulator/rn-first-app.app'
+                archiveFile: '$(agent.buildDirectory)/build/rn-first-app.zip'
+
             # - task: UseRubyVersion@0
             #   inputs:
             #     versionSpec: '>= 2.4'
@@ -36,11 +46,15 @@ stages:
             #     gem install xcpretty
             #   displayName: 'gem install xcpretty'
 
-            # - task: NodeTool@0
-            #   inputs:
-            #     versionSpec: '10.x'
-            #   displayName: 'Install Node.js'
+            - task: NodeTool@0
+              inputs:
+                versionSpec: '10.x'
+              displayName: 'Install Node.js'
             
+            - bash: |
+                npm install -g appium
+              displayName: 'install appium'
+                
             # - script: |
             #     npm install
             #   workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
