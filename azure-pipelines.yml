@@ -9,6 +9,7 @@ resources:
 trigger:
 - master
 
+
 stages:
   -   stage: Build_Test
       displayName: Build and Test artifacts
@@ -26,18 +27,32 @@ stages:
             - task: Xcode@5
               inputs:
                 actions: 'build'
-                sdk: 'iphonesimulator'
-                configuration: 'Debug'
+                sdk: 'iphoneos'
+                configuration: 'Release'
                 xcWorkspacePath: 'rnfirstapp.xcworkspace'
-                scheme: 'rnfirstapp'
-                xcodeVersion: '12'
-                args: '-derivedDataPath $(agent.buildDirectory)/build'
+                scheme: ''
+                xcodeVersion: 'default'
+                signingOption: 'default'
+                useXcpretty: 'false'
+            
+            - script: /usr/local/bin/pod install
+              displayName: 'pod install using a script'
+              
+            - task: CocoaPods@0
+              displayName: 'pod install using CocoaPods task with defaults'   
 
+            - task: CocoaPods@0
+              inputs:
+                forceRepoUpdate: true
+                projectDirectory: '$(system.defaultWorkingDirectory)'
+              displayName: 'pod install using CocoaPods task with a forced repo update and a custom project directory'
             - task: ArchiveFiles@2
               inputs:
                 rootFolderOrFile: '$(agent.buildDirectory)/build/Build/Products/Debug-iphonesimulator/rn-first-app.app'
                 archiveFile: '$(agent.buildDirectory)/build/rn-first-app.zip'
 
+            - script: carthage update --platform iOS
+            
             # - task: UseRubyVersion@0
             #   inputs:
             #     versionSpec: '>= 2.4'
