@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     listItem: {
         padding: 10,
         margin: 10,
-        backgroundColor: '#ccc',
+        backgroundColor: '#EF5350',
         borderColor: 'black',
         borderWidth: 1,
       }

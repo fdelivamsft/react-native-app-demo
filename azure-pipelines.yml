@@ -21,37 +21,37 @@ stages:
             steps:
             - checkout: self
            
-            - task: CocoaPods@0
-              inputs:
-                forceRepoUpdate: true
-            - task: Xcode@5
-              inputs:
-                actions: 'build'
-                sdk: 'iphoneos'
-                configuration: 'Release'
-                xcWorkspacePath: 'rnfirstapp.xcworkspace'
-                scheme: ''
-                xcodeVersion: 'default'
-                signingOption: 'default'
-                useXcpretty: 'false'
+            # - task: CocoaPods@0
+            #   inputs:
+            #     forceRepoUpdate: true
+            # - task: Xcode@5
+            #   inputs:
+            #     actions: 'build'
+            #     sdk: 'iphoneos'
+            #     configuration: 'Release'
+            #     xcWorkspacePath: 'rnfirstapp.xcworkspace'
+            #     scheme: ''
+            #     xcodeVersion: 'default'
+            #     signingOption: 'default'
+            #     useXcpretty: 'false'
             
-            - script: /usr/local/bin/pod install
-              displayName: 'pod install using a script'
+            # - script: /usr/local/bin/pod install
+            #   displayName: 'pod install using a script'
               
-            - task: CocoaPods@0
-              displayName: 'pod install using CocoaPods task with defaults'   
+            # - task: CocoaPods@0
+            #   displayName: 'pod install using CocoaPods task with defaults'   
 
-            - task: CocoaPods@0
-              inputs:
-                forceRepoUpdate: true
-                projectDirectory: '$(system.defaultWorkingDirectory)'
-              displayName: 'pod install using CocoaPods task with a forced repo update and a custom project directory'
-            - task: ArchiveFiles@2
-              inputs:
-                rootFolderOrFile: '$(agent.buildDirectory)/build/Build/Products/Debug-iphonesimulator/rn-first-app.app'
-                archiveFile: '$(agent.buildDirectory)/build/rn-first-app.zip'
+            # - task: CocoaPods@0
+            #   inputs:
+            #     forceRepoUpdate: true
+            #     projectDirectory: '$(system.defaultWorkingDirectory)'
+            #   displayName: 'pod install using CocoaPods task with a forced repo update and a custom project directory'
+            # - task: ArchiveFiles@2
+            #   inputs:
+            #     rootFolderOrFile: '$(agent.buildDirectory)/build/Build/Products/Debug-iphonesimulator/rn-first-app.app'
+            #     archiveFile: '$(agent.buildDirectory)/build/rn-first-app.zip'
 
-            - script: carthage update --platform iOS
+            # - script: carthage update --platform iOS
             
             # - task: UseRubyVersion@0
             #   inputs:
@@ -65,6 +65,11 @@ stages:
               inputs:
                 versionSpec: '10.x'
               displayName: 'Install Node.js'
+
+            - script: npm install
+              displayName: 'npm install'
+            - script: npm run ios
+              displayName: 'Run react-native run-ios'
             
             - bash: |
                 npm install -g appium
@@ -75,12 +80,12 @@ stages:
             #   workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
             #   displayName: 'npm install'
             
-            # - script: |
-            #     pod install
-            #     xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
-            #     xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
-            #   workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
-            #   displayName: 'pod install and xcodebuild to build ipa artefact'
+            - script: |
+                pod install
+                xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
+                xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
+              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
+              displayName: 'pod install and xcodebuild to build ipa artefact'
 
 
             # - task: CopyFiles@2
