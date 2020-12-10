@@ -28,6 +28,7 @@ https://medium.com/easyread/build-react-native-ipa-apk-using-cli-simple-ci-cd-2b
 
 gem install xcpretty
 
+cd ios
 xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
      
 xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
