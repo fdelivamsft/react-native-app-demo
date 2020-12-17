@@ -5,6 +5,9 @@ resources:
     endpoint: LayMui
     name: LayMui/demo-serenity-appium
     branch: applitools
+  
+    variables:
+    - group: React Native Variables
     
 trigger:
 - master
@@ -21,72 +24,56 @@ stages:
             steps:
             - checkout: self
            
-            # - task: CocoaPods@0
-            #   inputs:
-            #     forceRepoUpdate: true
-            # - task: Xcode@5
-            #   inputs:
-            #     actions: 'build'
-            #     sdk: 'iphoneos'
-            #     configuration: 'Release'
-            #     xcWorkspacePath: 'rnfirstapp.xcworkspace'
-            #     scheme: ''
-            #     xcodeVersion: 'default'
-            #     signingOption: 'default'
-            #     useXcpretty: 'false'
-            
-            # - script: /usr/local/bin/pod install
-            #   displayName: 'pod install using a script'
-              
-            # - task: CocoaPods@0
-            #   displayName: 'pod install using CocoaPods task with defaults'   
-
-            # - task: CocoaPods@0
-            #   inputs:
-            #     forceRepoUpdate: true
-            #     projectDirectory: '$(system.defaultWorkingDirectory)'
-            #   displayName: 'pod install using CocoaPods task with a forced repo update and a custom project directory'
-            # - task: ArchiveFiles@2
-            #   inputs:
-            #     rootFolderOrFile: '$(agent.buildDirectory)/build/Build/Products/Debug-iphonesimulator/rn-first-app.app'
-            #     archiveFile: '$(agent.buildDirectory)/build/rn-first-app.zip'
-
-            # - script: carthage update --platform iOS
-            
-            # - task: UseRubyVersion@0
-            #   inputs:
-            #     versionSpec: '>= 2.4'
-                
-            # - script: |
-            #     gem install xcpretty
-            #   displayName: 'gem install xcpretty'
-
             - task: NodeTool@0
               inputs:
                 versionSpec: '10.x'
               displayName: 'Install Node.js'
-
-            # - script: npm install
-            #   displayName: 'npm install'
-            # - script: npm install
-            #   displayName: 'Run react-native run-ios'
             
-            - bash: |
-                npm install -g appium
-              displayName: 'install appium'
+            # Download secure file
+            # Download a secure file to the agent machine
+            - task: DownloadSecureFile@1
+              name: Certificate
+              displayName: 'Download Certificate'
+              inputs:
+                  secureFile: 'Certificates.p12'
+  
+            - task: InstallAppleCertificate@2
+              inputs:
+                certSecureFile: 'Certificates.p12' 
+                certPwd: '$(P12password)'
+            - task: InstallAppleProvisioningProfile@1
+              inputs:
+                provisioningProfileLocation: 'secureFiles'
+                provProfileSecureFile: 'AppleProvision.developerprofile'
+              displayName: 'Install Apple Provisioning Profile'
+            
+            # - bash: |
+            #     npm install -g appium
+            #   displayName: 'install appium'
                 
             - script: |
                 npm install
-              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
+                workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
               displayName: 'npm install'
             
-            - script: |
-                pod install
-                xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
-                xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
-              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
-              displayName: 'pod install and xcodebuild to build ipa artefact'
+            # - script: |
+            #     pod install
+            #     xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
+            #     xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
+            #   workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
+            #   displayName: 'pod install and xcodebuild to build ipa artefact'
 
+            - script: |
+                cd ios
+                bundle install
+                fastlane build
+              displayName: 'Build iOS'
+        
+            - script: |
+                cd android
+                bundle install
+                fastlane build
+              displayName: 'Build android'            
 
             - task: CopyFiles@2
               inputs:
@@ -101,9 +88,9 @@ stages:
             - script: |
                 rm -r $(Build.ArtifactStagingDirectory)
 
-            - checkout: demo-serenity-appium
+            - checkout: demo-serenity-appium 
             - script: |
-                  ./serenity.sh iOS_realdevice 
+                  ./serenity.sh iOS_realdevice $(Build.ArtifactStagingDirectory)/ios/rnfirstapp/rn-first-app.ipa
                   workingDirectory: $(Build.SourcesDirectory)/demo-serenity-appium
                   displayName: 'run serenity appium test'
 
