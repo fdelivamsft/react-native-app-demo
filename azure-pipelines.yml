@@ -88,11 +88,11 @@ stages:
             - script: |
                 rm -r $(Build.ArtifactStagingDirectory)
 
-            - checkout: demo-serenity-appium 
-            - script: |
-                  serenity.sh iOS_realdevice $(Build.ArtifactStagingDirectory)/ios/rnfirstapp/rn-first-app.ipa
-              workingDirectory: $(Build.SourcesDirectory)/demo-serenity-appium
-              displayName: 'run serenity appium test'
+            # - checkout: demo-serenity-appium 
+            # - script: |
+            #       serenity.sh iOS_realdevice $(Build.ArtifactStagingDirectory)/ios/rnfirstapp/rn-first-app.ipa
+            #   workingDirectory: $(Build.SourcesDirectory)/demo-serenity-appium
+            #   displayName: 'run serenity appium test'
 
 
                 
