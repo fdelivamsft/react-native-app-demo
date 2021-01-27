@@ -37,15 +37,16 @@ xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirsta
 https://medium.com/@liam.e.andrew/continuous-integration-for-react-native-with-azure-pipelines-245d90948f6a
 
 # How to setup self hosted agent in azure pipeline
-
+```
 I found the following command which can enable "Allow apps downloaded from Anywhere".
 sudo spctl --master-disable
 
 Server url: https://dev.azure.com/muiume/
 To create PAT
 Go to user settings -> Personal Access token
+```
 
-
+```
 Download 
 Download the agent
 ./config.sh
@@ -65,11 +66,18 @@ Scanning for tool capabilities.
 Connecting to the server.
 Successfully added the agent
 Testing agent connection.
-
+```
 
 ./run.sh
+```
 Scanning for tool capabilities.
 Connecting to the server.
 2021-01-26 10:41:19Z: Listening for Jobs
+```
+
+Issues:
+```
+❌  error: /Users/runner/work/1/s/ios/Pods/Target Support Files/Pods-rnfirstapp/Pods-rnfirstapp.release.xcconfig: unable to open file (in target "rnfirstapp" in project "rnfirstapp") (in target 'rnfirstapp' from project 'rnfirstapp')
 
 
+```
