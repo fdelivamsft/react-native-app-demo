@@ -34,7 +34,7 @@ export default function App() {
   console.log('Playing with react native debugger')
   return (
     <View style={styles.screen}>
-      <Button {...testProperties('btnAddNewGoal')} title="Add New Goal" onPress={() => setIsAddMode(true)}/>
+      <Button {...testProperties('Add New Goal')} title="Add New Goal" onPress={() => setIsAddMode(true)}/>
       <GoalInput 
         visible={isAddMode} 
         onAddGoal={addGoalHandler}
