@@ -2,7 +2,7 @@
 pool:
   vmImage: 'macOS-10.14'
 variables:
-  scheme: ''
+  scheme: 'RNFirstApp'
   sdk: 'iphoneos'
   configuration: 'Release'
 
@@ -11,7 +11,7 @@ steps:
   inputs:
     sdk: '$(sdk)'  
     xcWorkspacePath: 'ios/rnfirstapp.xcworkspace' # Optional
-    scheme: 'RNFirstApp'
+    scheme: '$(scheme)'
     configuration: '$(configuration)'
     xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
     packageApp: false
