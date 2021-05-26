@@ -15,6 +15,10 @@ steps:
 #     xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
 #     packageApp: false
 
+- script: npm i
+  displayName: 'install dependencies'
+ 
+
 - script: /usr/local/bin/pod install
   displayName: 'pod install using a script'
   
@@ -27,7 +31,5 @@ steps:
     projectDirectory: '$(system.defaultWorkingDirectory)'
   displayName: 'pod install using the CocoaPods task with a forced repo update and a custom project directory'
 
-- script: |
-  npm i
-  npm run ios
-displayName: 'build rn ios app'
+- script: npm run ios
+  displayName: 'build rn ios app'
