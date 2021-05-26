@@ -1,99 +1,15 @@
-resources:
-  repositories:
-  - repository: demo-serenity-appium
-    type: github
-    endpoint: LayMui
-    name: LayMui/demo-serenity-appium
-    branch: applitools
-  
-    variables:
-    - group: React native Variables
-    
-trigger:
-- master
+# Xcode
+# Build, test, and archive an Xcode workspace on macOS.
+# Add steps that install certificates, test, sign, and distribute the app, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/xcode
 
+pool:
+  vmImage: 'macOS 10.13'
 
-stages:
-  -   stage: Build_Test
-      displayName: Build and Test artifacts
-      jobs:
-        -   job: Build_Test
-            pool:
-              vmImage: 'macOS-latest'
-
-            steps:
-            - checkout: self
-           
-            - task: NodeTool@0
-              inputs:
-                versionSpec: '10.x'
-              displayName: 'Install Node.js'
-            
-            # Download secure file
-            # Download a secure file to the agent machine
-            # - task: DownloadSecureFile@1
-            #   name: Certificate
-            #   displayName: 'Download Certificate'
-            #   inputs:
-            #       secureFile: 'Certificates.p12'
-  
-            # - task: InstallAppleCertificate@2
-            #   inputs:
-            #     certSecureFile: 'Certificates.p12' 
-            #     certPwd: '$(P12password)'
-            # - task: InstallAppleProvisioningProfile@1
-            #   inputs:
-            #     provisioningProfileLocation: 'secureFiles'
-            #     provProfileSecureFile: 'AppleProvision.developerprofile'
-            #   displayName: 'Install Apple Provisioning Profile'
-            
-            # - bash: |
-            #     npm install -g appium
-            #   displayName: 'install appium'
-                
-            - script: |
-                npm install
-              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo
-              displayName: 'npm install'
-            
-            - script: |
-                pod install
-                xcodebuild clean archive -workspace rnfirstapp.xcworkspace -scheme "rnfirstapp" -archivePath rnfirstapp.xcarchive
-                xcodebuild -exportArchive -archivePath rnfirstapp.xcarchive -exportPath rnfirstapp -exportOptionsPlist ExportOptions.plist | xcpretty
-              workingDirectory: $(Build.SourcesDirectory)/react-native-app-demo/ios
-              displayName: 'pod install and xcodebuild to build ipa artefact'
-
-            # - script: |
-            #     cd ios
-            #     bundle install
-            #     fastlane build
-            #   displayName: 'Build iOS'
-        
-            # - script: |
-            #     cd android
-            #     bundle install
-            #     fastlane build
-            #   displayName: 'Build android'            
-
-            - task: CopyFiles@2
-              inputs:
-                sourceFolder: $(Build.SourcesDirectory)/react-native-app-demo
-                contents: |
-                  **
-                TargetFolder: $(Build.ArtifactStagingDirectory)
-            - task: PublishPipelineArtifact@1
-              inputs:
-                targetPath: $(Build.ArtifactStagingDirectory)
-                artifactName: app-source-folder
-            - script: |
-                rm -r $(Build.ArtifactStagingDirectory)
-
-            # - checkout: demo-serenity-appium 
-            # - script: |
-            #       serenity.sh iOS_realdevice $(Build.ArtifactStagingDirectory)/ios/rnfirstapp/rn-first-app.ipa
-            #   workingDirectory: $(Build.SourcesDirectory)/demo-serenity-appium
-            #   displayName: 'run serenity appium test'
-
-
-                
- 
+steps:
+- task: Xcode@5
+  inputs:
+    scheme: ''
+    sdk: 'iphoneos'
+    configuration: 'Release'
+    xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
