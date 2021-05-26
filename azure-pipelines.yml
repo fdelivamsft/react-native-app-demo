@@ -15,11 +15,11 @@ steps:
 #     xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
 #     packageApp: false
 
-- script: |
-  nvm install v15.5.1
-  npm i
+- script: nvm install v15.5.1
+  displayName: 'update node to 15.5.1'
+
+- script: npm i
   displayName: 'install dependencies'
- 
 
 - script: /usr/local/bin/pod install
   displayName: 'pod install using a script'
