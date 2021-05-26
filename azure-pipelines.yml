@@ -28,5 +28,4 @@ steps:
     projectDirectory: '$(system.defaultWorkingDirectory)'
   displayName: 'pod install using the CocoaPods task with a forced repo update and a custom project directory'
 
-- script: npm run ios
-  displayName: 'build rn ios app'
+
