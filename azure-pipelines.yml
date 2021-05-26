@@ -7,12 +7,27 @@ variables:
   configuration: 'Release'
 
 steps:
-- task: Xcode@5
+# - task: Xcode@5
+#   inputs:
+#     sdk: '$(sdk)'
+#     scheme: '$(scheme)'
+#     configuration: '$(configuration)'
+#     xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
+#     packageApp: false
+
+- script: /usr/local/bin/pod install
+  displayName: 'pod install using a script'
+  
+- task: CocoaPods@0
+  displayName: 'pod install using the CocoaPods task with defaults'
+  
+- task: CocoaPods@0
   inputs:
-    sdk: '$(sdk)'
-    scheme: '$(scheme)'
-    configuration: '$(configuration)'
-    xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
-    exportPath: '$(agent.buildDirectory)/output/$(sdk)/$(configuration)'
-    packageApp: false
-    xcWorkspacePath: '$(agent.buildDirectory)/ios/rnfirstapp.xcodeproj'
+    forceRepoUpdate: true
+    projectDirectory: '$(system.defaultWorkingDirectory)'
+  displayName: 'pod install using the CocoaPods task with a forced repo update and a custom project directory'
+
+- script: |
+  npm i
+  npm run ios
+displayName: 'build rn ios app'
