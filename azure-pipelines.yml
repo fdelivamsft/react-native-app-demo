@@ -9,7 +9,8 @@ variables:
 steps:
 - task: Xcode@5
   inputs:
-    sdk: '$(sdk)'
+    sdk: '$(sdk)'  
+    xcWorkspacePath: 'ios/rnfirstapp.xcworkspace' # Optional
     scheme: '$(scheme)'
     configuration: '$(configuration)'
     xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
