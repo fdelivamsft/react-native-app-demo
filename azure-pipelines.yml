@@ -15,7 +15,9 @@ steps:
 #     xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
 #     packageApp: false
 
-- script: npm i
+- script: |
+  nvm install v15.5.1
+  npm i
   displayName: 'install dependencies'
  
 
