@@ -11,7 +11,7 @@ steps:
   inputs:
     sdk: '$(sdk)'  
     xcWorkspacePath: 'ios/rnfirstapp.xcworkspace' # Optional
-    scheme: '$(scheme)'
+    scheme: 'RNFirstApp'
     configuration: '$(configuration)'
     xcodeVersion: 'default' # Options: default, 10, 9, 8, specifyPath
     packageApp: false
